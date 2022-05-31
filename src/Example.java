@@ -1,0 +1,13 @@
+import java.util.*;
+class Example{
+    public static void main(String args[]){
+        int[]source={1,2,3,4,5,6};// itarate and copy elements
+        int[]destination=new int[6];
+        for (int i = 0; i < source.length; i++){
+            destination[i]=source[i];
+        }
+        System.out.print(Arrays.toString(destination));
+
+    }
+}
+
